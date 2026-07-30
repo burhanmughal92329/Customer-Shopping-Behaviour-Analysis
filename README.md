@@ -16,63 +16,42 @@ Customer Dataset Summary → Business Problem Identification → Python-Based Da
   - Customer demographics (Age, Gender, Location, Subscription Status)
   - Purchase details (Category, Item Purchased, Purchase Amount, Season, Size, Colour)
   - Shopping behaviour (Discount Applied, Previous Purchases, Purchase Frequency, Review Rating, Shipping Type)
-- **Data Quality:**
-  - Identified 37 missing values in the **Review Rating** column.
-  - Missing values were handled using **Python (Pandas)** in Jupyter Notebook before analysis.
+- **Data Quality:** 37 missing values handled using Python (Pandas).
 
 ---
 
 # 🎯 Business Problem
 
-Retail businesses generate large volumes of customer transaction data every day. However, raw data alone makes it difficult to:
-
-- Identify high-value customer segments
-- Track revenue and sales performance
-- Measure subscription effectiveness
-- Analyze category-wise sales
-- Understand customer purchasing behaviour
-- Make fast, data-driven business decisions
-
-To solve these challenges, an end-to-end analytics solution was developed using **Python, PostgreSQL, Power BI, and AI-powered assistants**.
+Retail businesses generate large volumes of customer transaction data every day. This project transforms raw data into actionable insights for faster, data-driven decision making.
 
 ---
 
 # 🐍 Exploratory Data Analysis (EDA)
 
-EDA and preprocessing were performed using **Python** in **Jupyter Notebook**.
-
 ### Tools
-
 - Python
 - Pandas
 - NumPy
 - Claude AI
 
 ### Tasks Performed
-
-- Imported dataset
-- Explored dataset structure
-- Cleaned missing values
-- Renamed columns to snake_case
-- Created `age_group`
-- Created `purchase_frequency_days`
-- Removed redundant columns
-- Loaded cleaned data into PostgreSQL using SQLAlchemy
+- Data Loading
+- Data Exploration
+- Missing Value Handling
+- Feature Engineering
+- Data Cleaning
+- PostgreSQL Integration
 
 ### Outcome
-
-A clean, consistent, and analysis-ready dataset for SQL analysis and Power BI dashboard development.
+Analysis-ready dataset for SQL and Power BI.
 
 ---
 
 # 🗄️ SQL Business Analysis (PostgreSQL)
 
-Business insights were extracted using **PostgreSQL**.
-
-💬 **ChatGPT** was used to assist in writing, optimizing, and validating SQL queries.
+💬 ChatGPT assisted in writing, optimizing, and validating SQL queries.
 
 ### Business Questions
-
 1. Revenue by Gender
 2. High-Spending Discount Users
 3. Top-Rated Products
@@ -85,27 +64,17 @@ Business insights were extracted using **PostgreSQL**.
 10. Revenue by Age Group
 
 ### Outcome
-
-Converted transactional data into meaningful business insights for interactive reporting.
+Meaningful business insights extracted from transactional data.
 
 ---
 
 # 📈 Power BI Dashboard
 
-Built an interactive **Customer Behaviour Dashboard** in **Power BI**.
-
-🤖 **Microsoft Copilot** was used for DAX measure creation and dashboard development support.
+Built an interactive Customer Behaviour Dashboard using **Microsoft Copilot** for DAX and development support.
 
 ## Dashboard Features
 
 - 📌 KPI Cards
-  - Total Customers
-  - Total Revenue
-  - Total Orders
-  - Average Purchase Amount
-  - Average Review Rating
-  - Average Items per Order
-
 - 👨‍👩‍👧 Revenue by Gender
 - 👥 Revenue by Age Group
 - 🛍 Revenue by Product Category
@@ -115,6 +84,12 @@ Built an interactive **Customer Behaviour Dashboard** in **Power BI**.
 - 📊 Custom DAX Measures
 - 🔍 Cross-filtering & Drill-down Analysis
 
+### 📸 Dashboard Preview
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/burhanmughal92329/Customer-Shopping-Behaviour-Analysis/main/Preview.JPG" alt="Customer Shopping Behaviour Dashboard" width="1000">
+</p>
+
 ### Outcome
 
 Provides an interactive Business Intelligence dashboard for faster and data-driven decision making.
@@ -123,15 +98,12 @@ Provides an interactive Business Intelligence dashboard for faster and data-driv
 
 # 💡 Solution
 
-The dashboard enables businesses to:
-
-- Monitor key business KPIs
-- Compare subscribers and non-subscribers
-- Analyze revenue by product category
+- Monitor KPIs
+- Analyze customer behaviour
+- Evaluate subscriptions
 - Identify high-value customer segments
-- Explore customer behaviour interactively
-- Replace manual reporting with dynamic dashboards
-- Support faster business decisions through data visualization
+- Interactive filtering and drill-down
+- Replace manual reporting
 
 ---
 
@@ -153,4 +125,4 @@ The dashboard enables businesses to:
 
 # 📌 Project Outcome
 
-This project demonstrates an end-to-end **Data Analytics** workflow by integrating **Python, SQL, Power BI, and AI-powered tools** to transform raw customer data into meaningful business insights through interactive dashboards and advanced analytics.
+This project demonstrates an end-to-end Data Analytics workflow integrating Python, SQL, Power BI, and AI-powered tools to transform raw customer data into interactive business insights.
